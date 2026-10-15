@@ -254,7 +254,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 > Methods that cast erasure as reward optimization with reinforcement learning. They fall outside the four operations as a training paradigm rather than a geometric action.
 
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Safe Image Generation via Reinforcement Learning** (Eungyeol Han, Jong-Seok Lee) · [📄 Paper](https://arxiv.org/abs/2610.05908)
-- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **ForceForget: Reinforcement Concept Removal for Enhancing Safety in Text-to-Image Models** (Dong Han, Yong Li) · [📄 Paper](https://arxiv.org/abs/2606.14351)
+- ![ICML 2026](https://img.shields.io/badge/ICML-2026-7b4fb3?style=flat-square) 🔥 **ForceForget: Reinforcement Concept Removal for Enhancing Safety in Text-to-Image Models** (Dong Han, Yong Li) · [📄 Paper](https://arxiv.org/abs/2606.14351)
 - ![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-7b4fb3?style=flat-square) 🔥 **FlowErase-RL: Rethinking Concept Erasure as Reward Optimization in Flow Matching Models** (Yi Sun, Zhiqi Zhang, Xinhao Zhong, Yimin Zhou, Shuoyang Sun, Bin Chen, Shu-Tao Xia, Ke Xu) · [📄 Paper](https://arxiv.org/abs/2605.19739)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **SafeDiffusion-R1: Online Reward Steering for Safe Diffusion Post-Training** (Komal Kumar, Ankan Deria, Abhishek Basu, Fahad Shamshad, Hisham Cholakkal, Karthik Nandakumar) · [📄 Paper](https://arxiv.org/abs/2605.18719)
 
