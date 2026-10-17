@@ -313,7 +313,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## Continual and Compositional Erasure
 
-- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Compositional Concept Erasure in Text-to-Image Diffusion Models via Hierarchically Grounded Semantic Surgery** (Chen Dai, Ganyu Zou, Nathan Self, Kevin Piper, Ramachandra Rao Seethiraju, Karthik Shyamsunder, Chang-Tien Lu, Naren Ramakrishnan) · [📄 Paper](https://arxiv.org/abs/2610.07337)
+- ![BMVC 2026](https://img.shields.io/badge/BMVC-2026-1f6feb?style=flat-square) 🔥 **Compositional Concept Erasure in Text-to-Image Diffusion Models via Hierarchically Grounded Semantic Surgery** (Chen Dai, Ganyu Zou, Nathan Self, Kevin Piper, Ramachandra Rao Seethiraju, Karthik Shyamsunder, Chang-Tien Lu, Naren Ramakrishnan) · [📄 Paper](https://arxiv.org/abs/2610.07337)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Continual Concept Erasure in Diffusion Models by Suppressing Cross-Edit Interference** (Yongliang Wu, Haori Lu, Jinqi Luo, Wei Cao, Xingyu Zhu, Yaoyao Liu) · [📄 Paper](https://arxiv.org/abs/2610.01989)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **MOSAIC: Compositional Multi-Concept Erasure via Vector Field Blending** (Junseok Ko, Jungwoo Kim, Jong-Seok Lee) · [📄 Paper](https://arxiv.org/abs/2605.25574)
 - ![ICLR 2026](https://img.shields.io/badge/ICLR-2026-7b4fb3?style=flat-square) 🔥 **Continual Unlearning for Text-to-Image Diffusion Models: A Regularization Perspective** (Justin Lee, Zheda Mai, Jinsu Yoo, Chongyu Fan, Cheng Zhang, Wei-Lun Chao) · [📄 Paper](https://arxiv.org/abs/2511.07970)
