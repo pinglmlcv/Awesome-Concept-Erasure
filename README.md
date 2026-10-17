@@ -264,7 +264,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ### Flow Matching and Diffusion Transformers
 
-- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Semantic Steering for Controllable Generation: Tuning-Free Concept Erasure in Multimodal Diffusion Transformers** (Qiao Li, Xiaomeng Fu, Yuanshu Zhao, Qipeng Wang, Jiao Dai, Jizhong Han) · [📄 Paper](https://arxiv.org/abs/2608.12829)
+- ![ACM MM 2026](https://img.shields.io/badge/ACM%20MM-2026-2e8b57?style=flat-square) 🔥 **Semantic Steering for Controllable Generation: Tuning-Free Concept Erasure in Multimodal Diffusion Transformers** (Qiao Li, Xiaomeng Fu, Yuanshu Zhao, Qipeng Wang, Jiao Dai, Jizhong Han) · [📄 Paper](https://arxiv.org/abs/2608.12829)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **FlowErase-OPD: Multi-Concept Erasure via Anchored On-Policy Distillation in Flow Matching Models** (Yi Sun, Yimin Zhou, Xinhao Zhong, Zhiqi Zhang, Junhao Li, Bin Chen) · [📄 Paper](https://arxiv.org/abs/2608.07620)
 - ![ICML 2026](https://img.shields.io/badge/ICML-2026-7b4fb3?style=flat-square) 🔥 **Concept Removal for Frontier Image Generative Models** (Aditya Kumar, Pierre Joly, Adam Dziedzic, Franziska Boenisch) · [📄 Paper](https://arxiv.org/abs/2606.25548)
 - ![ICML 2026](https://img.shields.io/badge/ICML-2026-7b4fb3?style=flat-square) 🔥 **Unified Safe In-context Image Generation in Multimodal Diffusion Transformers via Restricting Unsafe Information Flows** (Xiang Yang, Feifei Li, Mi Zhang, Geng Hong, Xiaoyu You, Mi Wen, Min Yang) · [📄 Paper](https://arxiv.org/abs/2606.06875)
