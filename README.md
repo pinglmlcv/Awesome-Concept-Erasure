@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Concept Erasure and Unlearning in Generative Models">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-244-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-245-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -21,7 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
-- **[2026.10]** 🎉 Repository created with **244 papers**, organized by a geometric taxonomy of concept erasure.
+- **[2026.10]** 🎉 Repository created with **245 papers**, organized by a geometric taxonomy of concept erasure.
 
 ## Content
 
@@ -130,6 +130,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 #### Anchor Guidance
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Push-Pull Attentional Anchoring for Diffusion Concept Erasure** (Nattanat Chatthee, Tagon Sompong, Ekapol Chuangsuwanich, Supasorn Suwajanakorn) · [📄 Paper](https://arxiv.org/abs/2610.27719)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **VisualErase: Dual-Branch Visual Trajectory Redirection for Robust Concept Erasure in Text-to-Image Diffusion Models** (Qianlong Xiang, Miao Zhang, Kun Wang, Yupeng Hu, Junhui Hou, Liqiang Nie) · [📄 Paper](https://arxiv.org/abs/2610.05000)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **AutoAnchor: Stable Diffusion Unlearning Using Cross-Attention as a Manifold Surrogate** (Siyuan Wen, Jiahao Zeng, Ningning Ding) · [📄 Paper](https://arxiv.org/abs/2607.08337)
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Bi-Erasing: A Bidirectional Framework for Concept Removal in Diffusion Models** (Hao Chen, Yiwei Wang, Songze Li) · [📄 Paper](https://arxiv.org/abs/2512.13039)
