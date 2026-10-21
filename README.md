@@ -130,7 +130,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 #### Anchor Guidance
 
-- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Push-Pull Attentional Anchoring for Diffusion Concept Erasure** (Nattanat Chatthee, Tagon Sompong, Ekapol Chuangsuwanich, Supasorn Suwajanakorn) · [📄 Paper](https://arxiv.org/abs/2610.27719)
+- ![ECCV 2026](https://img.shields.io/badge/ECCV-2026-1f6feb?style=flat-square) 🔥 **Push-Pull Attentional Anchoring for Diffusion Concept Erasure** (Nattanat Chatthee, Tagon Sompong, Ekapol Chuangsuwanich, Supasorn Suwajanakorn) · [📄 Paper](https://arxiv.org/abs/2610.27719)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **VisualErase: Dual-Branch Visual Trajectory Redirection for Robust Concept Erasure in Text-to-Image Diffusion Models** (Qianlong Xiang, Miao Zhang, Kun Wang, Yupeng Hu, Junhui Hou, Liqiang Nie) · [📄 Paper](https://arxiv.org/abs/2610.05000)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **AutoAnchor: Stable Diffusion Unlearning Using Cross-Attention as a Manifold Surrogate** (Siyuan Wen, Jiahao Zeng, Ningning Ding) · [📄 Paper](https://arxiv.org/abs/2607.08337)
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Bi-Erasing: A Bidirectional Framework for Concept Removal in Diffusion Models** (Hao Chen, Yiwei Wang, Songze Li) · [📄 Paper](https://arxiv.org/abs/2512.13039)
