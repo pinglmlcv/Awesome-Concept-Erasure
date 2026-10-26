@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Concept Erasure and Unlearning in Generative Models">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-245-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-246-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -21,7 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
-- **[2026.10]** 🎉 Repository created with **245 papers**, organized by a geometric taxonomy of concept erasure.
+- **[2026.10]** 🎉 Repository created with **246 papers**, organized by a geometric taxonomy of concept erasure.
 
 ## Content
 
@@ -186,6 +186,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 #### Sparse Feature Decomposition
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Concept Acupuncturist: An Efficient and Precise Concept Erasure Method for Diffusion Models via Sparse Autoencoders** (Yiran Xiahou, Siliang Qin, Kai Chen, Shengzhi Zhang, Renyang Liu) · [📄 Paper](https://arxiv.org/abs/2610.32059) · [💻 Code](https://github.com/Eran-Xia/ConceptACP)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **PEAK: Precise and Persistent Concept Erasure via k-Sparse Autoencoders** (Man Jiang, Ouxiang Li, Weibao Xue, Zhenhua Tang, Yuan Wang, Shuo Wang, Yanbin Hao) · [📄 Paper](https://arxiv.org/abs/2608.10985)
 - ![ECCV 2026](https://img.shields.io/badge/ECCV-2026-1f6feb?style=flat-square) 🔥 **Look But Don't Touch with Sparse Autoencoders for Unlearning in Diffusion Models** (Enrico Cassano, Riccardo Renzulli, Rayyan Ahmed, Marco Grangetto, Stephan Alaniz) · [📄 Paper](https://arxiv.org/abs/2606.31699)
 - ![ICML 2026](https://img.shields.io/badge/ICML-2026-7b4fb3?style=flat-square) 🔥 **SAEmnesia: Erasing Concepts in Diffusion Models with Supervised Sparse Autoencoders** (Enrico Cassano, Riccardo Renzulli, Marco Nurisso, Mirko Zaffaroni, Alan Perotti, Marco Grangetto) · [📄 Paper](https://arxiv.org/abs/2509.21379)
