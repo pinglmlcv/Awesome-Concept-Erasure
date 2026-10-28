@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Concept Erasure and Unlearning in Generative Models">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-246-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-247-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -21,7 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
-- **[2026.10]** 🎉 Repository created with **246 papers**, organized by a geometric taxonomy of concept erasure.
+- **[2026.10]** 🎉 Repository created with **247 papers**, organized by a geometric taxonomy of concept erasure.
 
 ## Content
 
@@ -210,6 +210,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **HyperErase: Scale-Calibrated Hypernetwork for Multi-Concept Erasure in Text-to-Image Models** (Yi Sun, Xinhao Zhong, Zhiqi Zhang, Yimin Zhou, Junhao Li, Yuxia Qiao) · [📄 Paper](https://arxiv.org/abs/2609.31154)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Gaussian Core LoRA: Distribution-Aware Dynamic Adaptation for Broad Concept Erasure** (Qinghui Gong, Xunlei Chen, Yu-Xuan Zhang, Hua Meng, Zhengchun Zhou) · [📄 Paper](https://arxiv.org/abs/2609.01433)
+- ![IEEE TIP 2026](https://img.shields.io/badge/IEEE%20TIP-2026-1d7486?style=flat-square) 🔥 **Safe Image Generation via Lightweight Concept Erasure in Diffusion Models** (Xiaoyu Geng, Shuaixiong Hui, Yuxin Wang, Joey Tianyi Zhou, Zheng Wang) · [📄 Paper](https://ieeexplore.ieee.org/document/11614198/) · [💻 Code](https://github.com/genggeng12345/SVEraser)
 - ![AAAI 2025](https://img.shields.io/badge/AAAI-2025-2e8b57?style=flat-square) **DuMo: Dual Encoder Modulation Network for Precise Concept Erasure** (Feng Han, Kai Chen, Chao Gong, Zhipeng Wei, Jingjing Chen, Yu-Gang Jiang) · [📄 Paper](https://arxiv.org/abs/2501.01125) · [💻 Code](https://github.com/Maplebb/DuMo)
 - ![ICCV 2025](https://img.shields.io/badge/ICCV-2025-1f6feb?style=flat-square) **AlignGuard: Scalable Safety Alignment for Text-to-Image Generation** (Runtao Liu, I Chieh Chen, Jindong Gu, Jipeng Zhang, Renjie Pi, Qifeng Chen, Philip Torr, Ashkan Khakzar, Fabio Pizzati) · [📄 Paper](https://arxiv.org/abs/2412.10493)
 - ![NeurIPS 2024](https://img.shields.io/badge/NeurIPS-2024-7b4fb3?style=flat-square) **Direct Unlearning Optimization for Robust and Safe Text-to-Image Models** (Yong-Hyun Park, Sangdoo Yun, Jin-Hwa Kim, Junho Kim, Geonhui Jang, Yonghyun Jeong, Junghyo Jo, Gayoung Lee) · [📄 Paper](https://arxiv.org/abs/2407.21035)
