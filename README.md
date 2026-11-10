@@ -23,7 +23,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 - [2026.11] 🔥 New: [Beyond Prompt Attacks: Least-Action Auditing of Concept Erasure](https://arxiv.org/abs/2611.10106) (arXiv 2026), a white-box audit that measures the minimum control energy needed to drive a frozen erased model back to the target concept, and shows that this barrier predicts deployment leakage without any prompt attack.
 - [2026.11] 🔥 New: [RASteer](https://arxiv.org/abs/2610.01969) (arXiv 2026), a training-free activation steering method that projects the erasure direction off a retain subspace with overlap-adaptive calibration, reducing collateral damage to retained concepts.
-- **[2026.10]** 🎉 Repository created with **249 papers**, organized by a geometric taxonomy of concept erasure.
+- **[2026.10]** 🎉 Repository created, organized by a geometric taxonomy of concept erasure.
 
 ## Content
 
