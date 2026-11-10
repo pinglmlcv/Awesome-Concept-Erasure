@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Concept Erasure and Unlearning in Generative Models">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-247-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-249-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -21,7 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
-- **[2026.10]** 🎉 Repository created with **247 papers**, organized by a geometric taxonomy of concept erasure.
+- **[2026.10]** 🎉 Repository created with **249 papers**, organized by a geometric taxonomy of concept erasure.
 
 ## Content
 
@@ -219,6 +219,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 #### Inference-Time Steering
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **RASteer: Retain-Aware Activation Steering for Concept Erasure in Diffusion Models** (Yongliang Wu, Haori Lu, Yulun Wu, Jinqi Luo, Xingyu Zhu, Yaoyao Liu) · [📄 Paper](https://arxiv.org/abs/2610.01969)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Test-Time Scaling for Safe Text-Guided Image Generation via Intermediate Clean Estimates** (Jinya Sakurai, Shueicheng Yan, Xun Xu) · [📄 Paper](https://arxiv.org/abs/2608.03284)
 - ![ICML 2026](https://img.shields.io/badge/ICML-2026-7b4fb3?style=flat-square) 🔥 **Concept Removal Guidance: Evidence-Calibrated Negative Guidance for Safe Diffusion Sampling** (Yoonseok Choi, Chaeyoung Oh, Hyunjun Choi, Seokin Seo, Kee-Eung Kim) · [📄 Paper](https://arxiv.org/abs/2606.29801)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **DSS: Dynamic Semantic Steering for Robust Concept Erasure in Diffusion Models** (Qinghui Gong, Zhengchun Zhou, Hua Meng, Yihuai Liang, Yuxuan Zhang) · [📄 Paper](https://arxiv.org/abs/2604.16483)
@@ -362,6 +363,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ### Evaluation Studies
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Beyond Prompt Attacks: Least-Action Auditing of Concept Erasure** (Zhu Yifei) · [📄 Paper](https://arxiv.org/abs/2611.10106)
 - ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-7b4fb3?style=flat-square) **Prompt-Based Safety Guidance Is Ineffective for Unlearned Text-to-Image Diffusion Models** (Jiwoo Shin, Byeonghu Na, Mina Kang, Wonhyeok Choi, Il-Chul Moon) · [📄 Paper](https://arxiv.org/abs/2511.04834)
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Erased or Dormant? Rethinking Concept Erasure Through Reversibility** (Ping Liu, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2505.16174)
 - ![arXiv 2024](https://img.shields.io/badge/arXiv-2024-b31b1b?style=flat-square) **Unlearning or Concealment? A Critical Analysis and Evaluation Metrics for Unlearning in Diffusion Models** (Aakash Sen Sharma, Niladri Sarkar, Vikram Chundawat, Ankur A Mali, Murari Mandal) · [📄 Paper](https://arxiv.org/abs/2409.05668)
