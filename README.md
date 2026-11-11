@@ -25,10 +25,25 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 - [2026.11] 🔥 New: [RASteer](https://arxiv.org/abs/2610.01969) (arXiv 2026), a training-free activation steering method that projects the erasure direction off a retain subspace with overlap-adaptive calibration, reducing collateral damage to retained concepts.
 - **[2026.10]** 🎉 Repository created, organized by a geometric taxonomy of concept erasure.
 
+## Our Work
+
+Our own papers on concept erasure and unlearning. Each one also appears in its category below, marked with ⭐ Ours.
+
+- ![ACM MM 2026](https://img.shields.io/badge/ACM%20MM-2026-2e8b57?style=flat-square) 🔥 **Motion Concept Unlearning in Video Diffusion Models** (Ping Liu, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2609.36832)<br>Unlearns motion concepts in text-to-video diffusion models by neutralizing the text tokens that carry the target motion.
+- ![ICML 2026](https://img.shields.io/badge/ICML-2026-7b4fb3?style=flat-square) 🔥 **Where Concept Erasure Should Occur: Concept-Layer Alignment in Text-to-Video Diffusion Models** (Yiwei Xie, Ping Liu, Zheng Zhang) · [📄 Paper](https://arxiv.org/abs/2605.25941)<br>Shows that target concepts are most separable at specific depths of text-to-video diffusion transformers, and proposes CLEAR, which selects the erasure layers by optimizing concept separability.
+- ![CVPR 2026](https://img.shields.io/badge/CVPR-2026-1f6feb?style=flat-square) 🔥 **Closed-Form Concept Erasure via Double Projections** (Chi Zhang, Jingpu Cheng, Zhixian Wang, Ping Liu) · [📄 Paper](https://arxiv.org/abs/2604.10032)<br>A training-free closed-form erasure that first projects out the target concept and then constrains the edit to the left null space of known concept directions, preserving non-target concepts on Stable Diffusion and FLUX.
+- ![ICLR 2026](https://img.shields.io/badge/ICLR-2026-7b4fb3?style=flat-square) 🔥 **Machine Unlearning under Retain-Forget Entanglement** (Jingpu Cheng, Ping Liu, Qianxiao Li, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2603.26569)<br>Unlearns a forget set that is entangled with the retained data, combining an augmented Lagrangian phase with a Wasserstein-regularized gradient projection to protect semantically related retained samples.
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **PROBE: Diagnosing Residual Concept Capacity in Erased Text-to-Video Diffusion Models** (Yiwei Xie, Zheng Zhang, Ping Liu) · [📄 Paper](https://arxiv.org/abs/2603.21547) · [💻 Code](https://github.com/YiweiXie/PRObingBasedEvaluation)<br>A diagnostic protocol that recovers erased concepts in frozen text-to-video models with a learned pseudo-token, revealing residual concept capacity and temporal re-emergence across frames.
+- ![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-7b4fb3?style=flat-square) 🔥 **DOME: Drift-Adaptive On-Policy Motion Erasure in Video Diffusion Transformers** (Ping Liu, Chi Zhang, Meng Tang)<br>Erases motion concepts from video diffusion transformers by supervising on the edited model's own trajectories, with drift-adaptive guidance to counter the off-policy mismatch that lets target motions persist.
+- ![TMLR 2026](https://img.shields.io/badge/TMLR-2026-7b4fb3?style=flat-square) 🔥 **ABCDE: Agentic-Based Controlled Dynamic Erasure for Intent-Aware Safety Reasoning** (Ping Liu, Chi Zhang) · [📄 Paper](https://mlanthology.org/tmlr/2026/liu2026tmlr-abcde/)<br>An agentic framework that reasons about the intent behind a prompt and applies concept erasure dynamically, only when the request calls for it.
+- ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Erasing Concepts, Steering Generations: A Comprehensive Survey of Concept Suppression** (Yiwei Xie, Ping Liu, Zheng Zhang) · [📄 Paper](https://arxiv.org/abs/2505.19398)<br>Survey of concept erasure in text-to-image diffusion, organized by intervention level, optimization structure and semantic scope, with benchmarks, metrics and open challenges.
+- ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Erased or Dormant? Rethinking Concept Erasure Through Reversibility** (Ping Liu, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2505.16174)<br>Shows that concepts erased by UCE and ESD often return with high visual quality after minimal fine-tuning, so these methods suppress rather than remove the concept.
+
 ## Content
 
 ---
 
+- [Our Work](#our-work)
 - [Geometric Taxonomy of Concept Erasure](#geometric-taxonomy-of-concept-erasure)
   - [Op I: Concept Subspace Projection](#op-i-concept-subspace-projection)
     - [Parameter Space](#parameter-space)
@@ -83,7 +98,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 - ![ICML 2026](https://img.shields.io/badge/ICML-2026-7b4fb3?style=flat-square) 🔥 **Orthogonal Concept Erasure for Diffusion Models** (Yuhao Sun, Lingyun Yu, Haoxiang Xu, Fengyuan Miao, Zhuoer Xu, Hongtao Xie) · [📄 Paper](https://arxiv.org/abs/2605.28902)
 - ![CVPR 2026](https://img.shields.io/badge/CVPR-2026-1f6feb?style=flat-square) 🔥 **Erasing Thousands of Concepts: Towards Scalable and Practical Concept Erasure for Text-to-Image Diffusion Models** (Hoigi Seo, Byung Hyun Lee, Jaehyun Cho, Sungjin Lim, Se Young Chun) · [📄 Paper](https://arxiv.org/abs/2604.16481)
-- ![CVPR 2026](https://img.shields.io/badge/CVPR-2026-1f6feb?style=flat-square) 🔥 **Closed-Form Concept Erasure via Double Projections** (Chi Zhang, Jingpu Cheng, Zhixian Wang, Ping Liu) · [📄 Paper](https://arxiv.org/abs/2604.10032)
+- ![CVPR 2026](https://img.shields.io/badge/CVPR-2026-1f6feb?style=flat-square) 🔥 **Closed-Form Concept Erasure via Double Projections** ⭐ Ours (Chi Zhang, Jingpu Cheng, Zhixian Wang, Ping Liu) · [📄 Paper](https://arxiv.org/abs/2604.10032)
 - ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-7b4fb3?style=flat-square) **CURE: Concept Unlearning via Orthogonal Representation Editing in Diffusion Models** (Shristi Das Biswas, Arani Roy, Kaushik Roy) · [📄 Paper](https://arxiv.org/abs/2505.12677)
 - ![arXiv 2024](https://img.shields.io/badge/arXiv-2024-b31b1b?style=flat-square) **RealEra: Semantic-level Concept Erasure via Neighbor-Concept Mining** (Yufan Liu, Jinyang An, Wanqian Zhang, Ming Li, Dayan Wu, Jingzi Gu, Zheng Lin, Weiping Wang) · [📄 Paper](https://arxiv.org/abs/2410.09140)
 - ![ECCV 2024](https://img.shields.io/badge/ECCV-2024-1f6feb?style=flat-square) **Reliable and Efficient Concept Erasure of Text-to-Image Diffusion Models** (Chao Gong, Kai Chen, Zhipeng Wei, Jingjing Chen, Yu-Gang Jiang) · [📄 Paper](https://arxiv.org/abs/2407.12383) · [💻 Code](https://github.com/CharlesGong12/RECE)
@@ -248,7 +263,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 - ![CVPR 2026 Findings](https://img.shields.io/badge/CVPR%20Findings-2026-1f6feb?style=flat-square) 🔥 **Concept Erasure via Attention Redirection** (Amit Schechter, Rinon Gal, Ofir Kedem, Gal Chechik, Daniel Cohen-Or) · [📄 Paper](https://cvpr.thecvf.com/virtual/2026/poster/40955)
 - ![CVPR 2026](https://img.shields.io/badge/CVPR-2026-1f6feb?style=flat-square) 🔥 **MapRoute: Precise-Concept Erasing Mappers via Semantic Routing** (Sihao Li, Baixi Liang, Shuohong Xia, Yunyun Yang) · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Li_MapRoutePrecise-Concept_Erasing_Mappers_via_Semantic_Routing_CVPR_2026_paper.html) · [💻 Code](https://github.com/GG-li/MapRoute)
 - ![CVPR 2026](https://img.shields.io/badge/CVPR-2026-1f6feb?style=flat-square) 🔥 **GenErase: Generalizable and Semantically-Aware Concept Erasure in Diffusion Models** (Korada Sri Vardhana, Soma Biswas) · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Vardhana_GenErase_Generalizable_and_Semantically-Aware_Concept_Erasure_in_Diffusion_Models_CVPR_2026_paper.html)
-- ![TMLR 2026](https://img.shields.io/badge/TMLR-2026-7b4fb3?style=flat-square) 🔥 **ABCDE: Agentic-Based Controlled Dynamic Erasure for Intent-Aware Safety Reasoning** (Ping Liu, Chi Zhang) · [📄 Paper](https://mlanthology.org/tmlr/2026/liu2026tmlr-abcde/)
+- ![TMLR 2026](https://img.shields.io/badge/TMLR-2026-7b4fb3?style=flat-square) 🔥 **ABCDE: Agentic-Based Controlled Dynamic Erasure for Intent-Aware Safety Reasoning** ⭐ Ours (Ping Liu, Chi Zhang) · [📄 Paper](https://mlanthology.org/tmlr/2026/liu2026tmlr-abcde/)
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **ACE: Attentional Concept Erasure in Diffusion Models** (Finn Carter) · [📄 Paper](https://arxiv.org/abs/2504.11850)
 - ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-1f6feb?style=flat-square) **Detect-and-Guide: Self-regulation of Diffusion Models for Safe Text-to-Image Generation via Guideline Token Optimization** (Feifei Li, Mi Zhang, Yiming Sun, Min Yang) · [📄 Paper](https://arxiv.org/abs/2503.15197)
 - ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-1f6feb?style=flat-square) **Localized Concept Erasure for Text-to-Image Diffusion Models Using Training-Free Gated Low-Rank Adaptation** (Byung Hyun Lee, Sungjin Lim, Se Young Chun) · [📄 Paper](https://arxiv.org/abs/2503.12356) · [💻 Code](https://github.com/Hyun1A/GLoCE)
@@ -297,14 +312,14 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **FADE: Frame-Aware Diffusion-Transformer-based Multi-Concept Erasure for Video Unlearning** (Yuchen Li, Kaiyuan Deng, Chaoran Feng, Zhenyu Tang, Li Yuan) · [📄 Paper](https://arxiv.org/abs/2610.03980)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **FOMO: Forget the Concept, Don't Miss Out on the Scene in Selective Video Unlearning** (Łukasz Rudnik, Agnieszka Polowczyk, Alicja Polowczyk, Przemysław Spurek) · [📄 Paper](https://arxiv.org/abs/2609.39605)
-- ![ACM MM 2026](https://img.shields.io/badge/ACM%20MM-2026-2e8b57?style=flat-square) 🔥 **Motion Concept Unlearning in Video Diffusion Models** (Ping Liu, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2609.36832)
+- ![ACM MM 2026](https://img.shields.io/badge/ACM%20MM-2026-2e8b57?style=flat-square) 🔥 **Motion Concept Unlearning in Video Diffusion Models** ⭐ Ours (Ping Liu, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2609.36832)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **CleanVideo: Adaptive Concept Erasure for Text-to-Video Diffusion Models** (Junchi Liao, Hongji Li, Wenrui Zhou, Lijie Hu) · [📄 Paper](https://arxiv.org/abs/2609.20267)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Inference-Time Concept Suppression and Video-Centric Evaluation for Text-to-Video Models** (Wenxuan Chen, Wenjie Feng) · [📄 Paper](https://arxiv.org/abs/2607.14194)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Pulling the REINS: Training-Free Safety Alignment of Video Diffusion Models via Representation Steering** (Rohit Kundu, Arindam Dutta, Sarosij Bose, Athula Balachandran, Amit K. Roy-Chowdhury) · [📄 Paper](https://arxiv.org/abs/2606.17257)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Activation Steering of Video Generation Models via Reduced-Order Linear Optimal Control** (Jihoon Hong, Alice Chan, Qiyue Dai, Julian Skifstad, Glen Chou) · [📄 Paper](https://arxiv.org/abs/2606.04775)
-- ![ICML 2026](https://img.shields.io/badge/ICML-2026-7b4fb3?style=flat-square) 🔥 **Where Concept Erasure Should Occur: Concept-Layer Alignment in Text-to-Video Diffusion Models** (Yiwei Xie, Ping Liu, Zheng Zhang) · [📄 Paper](https://arxiv.org/abs/2605.25941)
+- ![ICML 2026](https://img.shields.io/badge/ICML-2026-7b4fb3?style=flat-square) 🔥 **Where Concept Erasure Should Occur: Concept-Layer Alignment in Text-to-Video Diffusion Models** ⭐ Ours (Yiwei Xie, Ping Liu, Zheng Zhang) · [📄 Paper](https://arxiv.org/abs/2605.25941)
 - ![ICLR 2026](https://img.shields.io/badge/ICLR-2026-7b4fb3?style=flat-square) 🔥 **Video Unlearning via Low-Rank Refusal Vector** (Simone Facchiano, Stefano Saravalle, Matteo Migliarini, Edoardo De Matteis, Alessio Sampieri, Andrea Pilzer, Emanuele Rodolà, Indro Spinelli, Luca Franco, Fabio Galasso) · [📄 Paper](https://arxiv.org/abs/2506.07891)
-- ![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-7b4fb3?style=flat-square) 🔥 **DOME: Drift-Adaptive On-Policy Motion Erasure in Video Diffusion Transformers** (Ping Liu, Chi Zhang, Meng Tang)
+- ![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-7b4fb3?style=flat-square) 🔥 **DOME: Drift-Adaptive On-Policy Motion Erasure in Video Diffusion Transformers** ⭐ Ours (Ping Liu, Chi Zhang, Meng Tang)
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **ConceptGuard: Proactive Safety in Text-and-Image-to-Video Generation through Multimodal Risk Detection** (Ruize Ma, Minghong Cai, Yilei Jiang, Jiaming Han, Yi Feng, Yingshui Tan, Xiaoyong Zhu, Bo Zhang, Bo Zheng, Xiangyu Yue) · [📄 Paper](https://arxiv.org/abs/2511.18780)
 - ![EMNLP 2025](https://img.shields.io/badge/EMNLP-2025-2e8b57?style=flat-square) **VideoEraser: Concept Erasure in Text-to-Video Diffusion Models** (Naen Xu, Jinghuai Zhang, Changjiang Li, Zhi Chen, Chunyi Zhou, Qingming Li, Tianyu Du, Shouling Ji) · [📄 Paper](https://arxiv.org/abs/2508.15314)
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **T2VUnlearning: A Concept Erasing Method for Text-to-Video Diffusion Models** (Xiaoyu Ye, Songjie Cheng, Yongtao Wang, Yajiao Xiong, Yishen Li) · [📄 Paper](https://arxiv.org/abs/2505.17550) · [💻 Code](https://github.com/VDIGPKU/T2VUnlearning)
@@ -367,7 +382,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Beyond Prompt Attacks: Least-Action Auditing of Concept Erasure** (Zhu Yifei) · [📄 Paper](https://arxiv.org/abs/2611.10106)
 - ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-7b4fb3?style=flat-square) **Prompt-Based Safety Guidance Is Ineffective for Unlearned Text-to-Image Diffusion Models** (Jiwoo Shin, Byeonghu Na, Mina Kang, Wonhyeok Choi, Il-Chul Moon) · [📄 Paper](https://arxiv.org/abs/2511.04834)
-- ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Erased or Dormant? Rethinking Concept Erasure Through Reversibility** (Ping Liu, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2505.16174)
+- ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Erased or Dormant? Rethinking Concept Erasure Through Reversibility** ⭐ Ours (Ping Liu, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2505.16174)
 - ![arXiv 2024](https://img.shields.io/badge/arXiv-2024-b31b1b?style=flat-square) **Unlearning or Concealment? A Critical Analysis and Evaluation Metrics for Unlearning in Diffusion Models** (Aakash Sen Sharma, Niladri Sarkar, Vikram Chundawat, Ankur A Mali, Murari Mandal) · [📄 Paper](https://arxiv.org/abs/2409.05668)
 
 ---
@@ -403,7 +418,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ### Multimodal and Text-free Attacks
 
-- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **PROBE: Diagnosing Residual Concept Capacity in Erased Text-to-Video Diffusion Models** (Yiwei Xie, Zheng Zhang, Ping Liu) · [📄 Paper](https://arxiv.org/abs/2603.21547) · [💻 Code](https://github.com/YiweiXie/PRObingBasedEvaluation)
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **PROBE: Diagnosing Residual Concept Capacity in Erased Text-to-Video Diffusion Models** ⭐ Ours (Yiwei Xie, Zheng Zhang, Ping Liu) · [📄 Paper](https://arxiv.org/abs/2603.21547) · [💻 Code](https://github.com/YiweiXie/PRObingBasedEvaluation)
 - ![CVPR 2026](https://img.shields.io/badge/CVPR-2026-1f6feb?style=flat-square) 🔥 **TINA: Text-Free Inversion Attack for Unlearned Text-to-Image Diffusion Models** (Qianlong Xiang, Miao Zhang, Haoyu Zhang, Kun Wang, Junhui Hou, Liqiang Nie) · [📄 Paper](https://arxiv.org/abs/2603.17828)
 - ![ICME 2026](https://img.shields.io/badge/ICME-2026-2e8b57?style=flat-square) 🔥 **REFORGE: Multi-modal Attacks Reveal Vulnerable Concept Unlearning in Image Generation Models** (Yong Zou, Haoran Li, Fanxiao Li, Shenyang Wei, Yunyun Dong, Li Tang, Wei Zhou, Renyang Liu) · [📄 Paper](https://arxiv.org/abs/2603.16576)
 - ![IEEE TPAMI 2025](https://img.shields.io/badge/IEEE%20TPAMI-2025-1d7486?style=flat-square) **Unified Prompt Attack Against Text-to-Image Generation Models** (Duo Peng, Qiuhong Ke, Mark He Huang, Ping Hu, Jun Liu) · [📄 Paper](https://arxiv.org/abs/2502.16423)
@@ -457,7 +472,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ### General Machine Unlearning
 
-- ![ICLR 2026](https://img.shields.io/badge/ICLR-2026-7b4fb3?style=flat-square) 🔥 **Machine Unlearning under Retain-Forget Entanglement** (Jingpu Cheng, Ping Liu, Qianxiao Li, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2603.26569)
+- ![ICLR 2026](https://img.shields.io/badge/ICLR-2026-7b4fb3?style=flat-square) 🔥 **Machine Unlearning under Retain-Forget Entanglement** ⭐ Ours (Jingpu Cheng, Ping Liu, Qianxiao Li, Chi Zhang) · [📄 Paper](https://arxiv.org/abs/2603.26569)
 - ![ICML 2026 Workshop](https://img.shields.io/badge/ICML%20Workshop-2026-6a737d?style=flat-square) 🔥 **Unlearning for One-Step Generative Models via Unbalanced Optimal Transport** (Hyundo Choi, Junhyeong An, Jinseong Park, Jaewoong Choi) · [📄 Paper](https://arxiv.org/abs/2603.16489)
 - ![AAAI 2026](https://img.shields.io/badge/AAAI-2026-2e8b57?style=flat-square) 🔥 **Easy to Learn, Yet Hard to Forget: Towards Robust Unlearning Under Bias** (JuneHyoung Kwon, MiHyeon Kim, Eunju Lee, Yoonji Lee, Seunghoon Lee, YoungBin Kim) · [📄 Paper](https://arxiv.org/abs/2602.21773)
 - ![CoLLAs 2026](https://img.shields.io/badge/CoLLAs-2026-2e8b57?style=flat-square) 🔥 **Benchmarking Unlearning for Vision Transformers** (Kairan Zhao, Iurie Luca, Peter Triantafillou) · [📄 Paper](https://arxiv.org/abs/2602.20114)
@@ -482,7 +497,7 @@ Badge colors: ![](https://img.shields.io/badge/arXiv-b31b1b?style=flat-square) p
 
 ## Relevant Surveys
 
-- ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Erasing Concepts, Steering Generations: A Comprehensive Survey of Concept Suppression** (Yiwei Xie, Ping Liu, Zheng Zhang) · [📄 Paper](https://arxiv.org/abs/2505.19398)
+- ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Erasing Concepts, Steering Generations: A Comprehensive Survey of Concept Suppression** ⭐ Ours (Yiwei Xie, Ping Liu, Zheng Zhang) · [📄 Paper](https://arxiv.org/abs/2505.19398)
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **A Comprehensive Survey on Concept Erasure in Text-to-Image Diffusion Models** (Changhoon Kim, Yanjun Qi) · [📄 Paper](https://arxiv.org/abs/2502.14896)
 - ![ACM Computing Surveys 2023](https://img.shields.io/badge/ACM%20Computing%20Surveys-2023-1d7486?style=flat-square) **Machine Unlearning: A Survey** (Heng Xu, Tianqing Zhu, Lefeng Zhang, Wanlei Zhou, Philip S. Yu) · [📄 Paper](https://arxiv.org/abs/2306.03558)
 
