@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Concept Erasure and Unlearning in Generative Models">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-249-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-252-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -21,6 +21,9 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
+- [2026.11] 🔥 New: [Not All Steps Matter (TASN)](https://arxiv.org/abs/2611.18678) (arXiv 2026), a training-free spectral method that finds concept energy in cross-attention OV circuits follows a category-dependent temporal hierarchy (content fades first, style last) and scales spectral nullification with that energy at each denoising step, lowering attack success rate below uniform nullification while recovering most of its quality loss.
+- [2026.11] 🔥 New: [Mechanistic Dissection of Cross-Attention Subspaces](https://ojs.aaai.org/index.php/AAAI/article/view/39046) (AAAI 2026), which decomposes cross-attention OV circuits with SVD, localizes concepts in a few spectral components, and removes them at inference with Spectral Nullification.
+- [2026.11] 🔥 New: [SDErasure](https://openreview.net/forum?id=EWM9JQ6gX7) (ICLR 2026), which uses a diffusion classifier to select the timesteps that drive a concept and fine-tunes only those steps to rematch the score toward an anchor concept.
 - [2026.11] 🔥 New: [Beyond Prompt Attacks: Least-Action Auditing of Concept Erasure](https://arxiv.org/abs/2611.10106) (arXiv 2026), a white-box audit that measures the minimum control energy needed to drive a frozen erased model back to the target concept, and shows that this barrier predicts deployment leakage without any prompt attack.
 - [2026.11] 🔥 New: [RASteer](https://arxiv.org/abs/2610.01969) (arXiv 2026), a training-free activation steering method that projects the erasure direction off a retain subspace with overlap-adaptive calibration, reducing collateral damage to retained concepts.
 - **[2026.10]** 🎉 Repository created, organized by a geometric taxonomy of concept erasure.
@@ -150,6 +153,7 @@ Our own papers on concept erasure and unlearning. Each one also appears in its c
 - ![ECCV 2026](https://img.shields.io/badge/ECCV-2026-1f6feb?style=flat-square) 🔥 **Push-Pull Attentional Anchoring for Diffusion Concept Erasure** (Nattanat Chatthee, Tagon Sompong, Ekapol Chuangsuwanich, Supasorn Suwajanakorn) · [📄 Paper](https://arxiv.org/abs/2610.27719)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **VisualErase: Dual-Branch Visual Trajectory Redirection for Robust Concept Erasure in Text-to-Image Diffusion Models** (Qianlong Xiang, Miao Zhang, Kun Wang, Yupeng Hu, Junhui Hou, Liqiang Nie) · [📄 Paper](https://arxiv.org/abs/2610.05000)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **AutoAnchor: Stable Diffusion Unlearning Using Cross-Attention as a Manifold Surrogate** (Siyuan Wen, Jiahao Zeng, Ningning Ding) · [📄 Paper](https://arxiv.org/abs/2607.08337)
+- ![ICLR 2026](https://img.shields.io/badge/ICLR-2026-7b4fb3?style=flat-square) 🔥 **SDErasure: Concept-Specific Trajectory Shifting for Concept Erasure via Adaptive Diffusion Classifier** (Fengyuan Miao, Shancheng Fang, Lingyun Yu, Yadong Qu, Yuhao Sun, Xiaorui Wang, Hongtao Xie) · [📄 Paper](https://openreview.net/forum?id=EWM9JQ6gX7)
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Bi-Erasing: A Bidirectional Framework for Concept Removal in Diffusion Models** (Hao Chen, Yiwei Wang, Songze Li) · [📄 Paper](https://arxiv.org/abs/2512.13039)
 - ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-7b4fb3?style=flat-square) **EraseFlow: Learning Concept Erasure Policies via GFlowNet-Driven Alignment** (Abhiram Kusumba, Maitreya Patel, Kyle Min, Changhoon Kim, Chitta Baral, Yezhou Yang) · [📄 Paper](https://arxiv.org/abs/2511.00804)
 - ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-1f6feb?style=flat-square) **STEREO: A Two-Stage Framework for Adversarially Robust Concept Erasing from Text-to-Image Diffusion Models** (Koushik Srivatsan, Fahad Shamshad, Muzammal Naseer, Karthik Nandakumar) · [📄 Paper](https://arxiv.org/abs/2408.16807) · [💻 Code](https://github.com/koushiksrivats/robust-concept-erasing)
@@ -190,7 +194,7 @@ Our own papers on concept erasure and unlearning. Each one also appears in its c
 - ![CVPR 2026](https://img.shields.io/badge/CVPR-2026-1f6feb?style=flat-square) 🔥 **GrOCE: Graph-Guided Online Concept Erasure for Text-to-Image Diffusion Models** (Ning Han, Zhenyu Ge, Feng Han, Yuhua Sun, Chengqing Li, Jingjing Chen) · [📄 Paper](https://arxiv.org/abs/2511.12968)
 - ![ICML 2025](https://img.shields.io/badge/ICML-2025-7b4fb3?style=flat-square) **Minimalist Concept Erasure in Generative Models** (Yang Zhang, Er Jin, Yanfei Dong, Yixuan Wu, Philip Torr, Ashkan Khakzar, Johannes Stegmaier, Kenji Kawaguchi) · [📄 Paper](https://arxiv.org/abs/2507.13386)
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **SAGE: Exploring the Boundaries of Unsafe Concept Domain with Semantic-Augment Erasing** (Hongguang Zhu, Yunchao Wei, Mengyu Wang, Siyu Jiao, Yan Fang, Jiannan Huang, Yao Zhao) · [📄 Paper](https://arxiv.org/abs/2506.09363) · [💻 Code](https://github.com/KevinLight831/SAGE)
-- ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Set You Straight: Auto-Steering Denoising Trajectories to Sidestep Unwanted Concepts** (Leyang Li, Shilin Lu, Yan Ren, Adams Wai-Kin Kong) · [📄 Paper](https://arxiv.org/abs/2504.12782) · [💻 Code](https://github.com/lileyang1210/ANT)
+- ![ACM MM 2025](https://img.shields.io/badge/ACM%20MM-2025-2e8b57?style=flat-square) **Set You Straight: Auto-Steering Denoising Trajectories to Sidestep Unwanted Concepts** (Leyang Li, Shilin Lu, Yan Ren, Adams Wai-Kin Kong) · [📄 Paper](https://arxiv.org/abs/2504.12782) · [💻 Code](https://github.com/lileyang1210/ANT)
 - ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-1f6feb?style=flat-square) **Fine-Grained Erasure in Text-to-Image Diffusion-based Foundation Models** (Kartik Thakral, Tamar Glaser, Tal Hassner, Mayank Vatsa, Richa Singh) · [📄 Paper](https://arxiv.org/abs/2503.19783)
 - ![ICLR 2025](https://img.shields.io/badge/ICLR-2025-7b4fb3?style=flat-square) **Fantastic Targets for Concept Erasure in Diffusion Models and Where To Find Them** (Anh Bui, Trang Vu, Long Vuong, Trung Le, Paul Montague, Tamas Abraham, Junae Kim, Dinh Phung) · [📄 Paper](https://arxiv.org/abs/2501.18950) · [💻 Code](https://github.com/tuananhbui89/Adaptive-Guided-Erasure)
 - ![ICLR 2025](https://img.shields.io/badge/ICLR-2025-7b4fb3?style=flat-square) **Erasing Concept Combinations from Text-to-Image Diffusion Model** (Hongyi Nie, Quanming Yao, Yang Liu, Zhen Wang, Yatao Bian) · [📄 Paper](https://openreview.net/forum?id=OBjF5I4PWg)
@@ -213,7 +217,9 @@ Our own papers on concept erasure and unlearning. Each one also appears in its c
 
 #### Neuron Pruning and Parameter Subtraction
 
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Not All Steps Matter: Temporally Adaptive Spectral Control for Concept Removal in Diffusion Models** (Chanaka Thushitha Bandara, Lakmali Nadeesha Kumari, Sen-Ching Samson Cheung) · [📄 Paper](https://arxiv.org/abs/2611.18678)
 - ![ICML 2026](https://img.shields.io/badge/ICML-2026-7b4fb3?style=flat-square) 🔥 **Forget-It-All: Multi-Concept Machine Unlearning via Concept-Aware Neuron Masking** (Kaiyuan Deng, Bo Hui, Gen Li, Jie Ji, Minghai Qin, Geng Yuan, Xiaolong Ma) · [📄 Paper](https://arxiv.org/abs/2601.06163)
+- ![AAAI 2026](https://img.shields.io/badge/AAAI-2026-2e8b57?style=flat-square) 🔥 **Mechanistic Dissection of Cross-Attention Subspaces in Text-to-Image Diffusion Models** (Jun-Hyun Bae, Wonyong Jo, Jaehyup Lee, Heechul Jung) · [📄 Paper](https://ojs.aaai.org/index.php/AAAI/article/view/39046) · [💻 Code](https://github.com/JunhyunB/diffusion-ov-circuits)
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **A Single Neuron Works: Precise Concept Erasure in Text-to-Image Diffusion Models** (Qinqin He, Jiaqi Weng, Jialing Tao, Hui Xue) · [📄 Paper](https://arxiv.org/abs/2509.21008)
 - ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-7b4fb3?style=flat-square) **Unveiling Concept Attribution in Diffusion Models** (Quang H. Nguyen, Hoang Phan, Khoa D. Doan) · [📄 Paper](https://arxiv.org/abs/2412.02542) · [💻 Code](https://github.com/mail-research/CAD-attribution4diffusion)
 - ![ICLR 2025](https://img.shields.io/badge/ICLR-2025-7b4fb3?style=flat-square) **ConceptPrune: Concept Editing in Diffusion Models via Skilled Neuron Pruning** (Ruchika Chavhan, Da Li, Timothy Hospedales) · [📄 Paper](https://arxiv.org/abs/2405.19237)
