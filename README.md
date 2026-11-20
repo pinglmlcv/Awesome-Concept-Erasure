@@ -3,7 +3,7 @@
 <img src="figures/banner.png" width="100%" alt="Awesome Concept Erasure and Unlearning in Generative Models">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/papers-253-2f6db5.svg)](#content)
+[![Papers](https://img.shields.io/badge/papers-254-2f6db5.svg)](#content)
 [![Last Update](https://img.shields.io/badge/last%20update-Oct%202026-2e8b57.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7b4fb3.svg)](#-contributing)
 
@@ -21,6 +21,7 @@ This project is curated and maintained by [Ping Liu](https://pinglmlcv.github.io
 
 ## News
 
+- [2026.11] 🔥 New: [Whispers in the Noise (ConceptAgent)](https://arxiv.org/abs/2605.18150) (arXiv 2026), a training-free multi-agent attack that awakens erased concepts without gradients or model internals by starting denoising from noisy states built from a permissible surrogate concept, exploiting the shift from text-driven to state-driven generation in later denoising steps.
 - [2026.11] 🔥 New: [ETI](https://doi.org/10.1145/3830454.3832589) (ACM CCS 2026), a vision-guided erasure framework that derives the erasure target from a few visual exemplars by optimizing an embedding whose cross-attention maps align with the annotated regions, then removes it with a closed-form cross-attention edit, reaching 98.73% NSFW erasure success with less than 0.14 FID increase.
 - [2026.11] 🔥 New: [Not All Steps Matter (TASN)](https://arxiv.org/abs/2611.18678) (arXiv 2026), a training-free spectral method that finds concept energy in cross-attention OV circuits follows a category-dependent temporal hierarchy (content fades first, style last) and scales spectral nullification with that energy at each denoising step, lowering attack success rate below uniform nullification while recovering most of its quality loss.
 - [2026.11] 🔥 New: [Mechanistic Dissection of Cross-Attention Subspaces](https://ojs.aaai.org/index.php/AAAI/article/view/39046) (AAAI 2026), which decomposes cross-attention OV circuits with SVD, localizes concepts in a few spectral components, and removes them at inference with Spectral Nullification.
@@ -414,6 +415,7 @@ Our own papers on concept erasure and unlearning. Each one also appears in its c
 
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Stress Testing Concept Erasure with Large Language Model Agents** (Yuyang Xue, Feng Chen, Zhihua Liu, Edward Moroshko, Jingyu Sun, Steven McDonagh, Sotirios A. Tsaftaris) · [📄 Paper](https://arxiv.org/abs/2607.17890)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Erased but Exploitable: Black-box Embedding-Aware Prompting Against Unlearned Text-to-Image Diffusion Models** (Arian Komaei Koma, Seyed Amir Kasaei, AmirMahdi Sadeghzadeh, Mohammad Hossein Rohban) · [📄 Paper](https://arxiv.org/abs/2605.26332)
+- ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **Whispers in the Noise: Surrogate-Guided Concept Awakening via a Multi-Agent Framework** (Mengyu Sun, Ziyuan Yang, Zunlong Zhou, Junxu Liu, Haibo Hu, Yi Zhang) · [📄 Paper](https://arxiv.org/abs/2605.18150)
 - ![arXiv 2026](https://img.shields.io/badge/arXiv-2026-b31b1b?style=flat-square) 🔥 **ReLAPSe: Reinforcement-Learning-trained Adversarial Prompt Search for Erased Concepts in Unlearned Diffusion Models** (Ignacy Kolton, Kacper Marzol, Paweł Batorski, Marcin Mazur, Paul Swoboda, Przemysław Spurek) · [📄 Paper](https://arxiv.org/abs/2602.00350)
 - ![EACL 2026 Findings](https://img.shields.io/badge/EACL%20Findings-2026-2e8b57?style=flat-square) 🔥 **Jailbreaking Safeguarded Text-to-Image Models via Large Language Models** (Zhengyuan Jiang, Yuepeng Hu, Yuchen Yang, Yinzhi Cao, Neil Zhenqiang Gong) · [📄 Paper](https://arxiv.org/abs/2503.01839) · [💻 Code](https://github.com/zhengyuan-jiang/PromptTune)
 - ![arXiv 2025](https://img.shields.io/badge/arXiv-2025-b31b1b?style=flat-square) **Metaphor-based Jailbreak Attacks on Text-to-Image Models** (Chenyu Zhang, Lanjun Wang, Yiwen Ma, Wenhui Li, Yi Tu, An-An Liu) · [📄 Paper](https://arxiv.org/abs/2512.10766)
